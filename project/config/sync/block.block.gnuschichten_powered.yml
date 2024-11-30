@@ -1,0 +1,22 @@
+uuid: 1c58d98b-454a-468e-8a06-bac8bd1d1acc
+langcode: de
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gnuschichten
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: gnuschichten_powered
+theme: gnuschichten
+region: sidebar_first
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Angetrieben durch Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

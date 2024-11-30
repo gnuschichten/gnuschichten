@@ -1,0 +1,23 @@
+uuid: aa424108-ccda-4c32-a94d-65cea4974ea6
+langcode: de
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - gnuschichten
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: gnuschichten_syndicate
+theme: gnuschichten
+region: sidebar_first
+weight: 0
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: RSS-Feed
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 33378f39-ce05-4238-ab08-0f76c21fe5b7
+langcode: de
+status: true
+dependencies:
+  theme:
+    - gnuschichten
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: gnuschichten_page_title
+theme: gnuschichten
+region: sidebar_first
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: Seitentitel
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 8005208c-c868-4fb1-a94c-3ef03e18a75b
+langcode: de
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gnuschichten
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: gnuschichten_content
+theme: gnuschichten
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Hauptinhalt der Seite'
+  label_display: '0'
+  provider: system
+visibility: {  }

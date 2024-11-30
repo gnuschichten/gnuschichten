@@ -1,0 +1,22 @@
+uuid: 6d911b38-6bca-44a0-a6ac-8c17c7addd1c
+langcode: de
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gnuschichten
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: gnuschichten_breadcrumbs
+theme: gnuschichten
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Pfadnavigation
+  label_display: '0'
+  provider: system
+visibility: {  }

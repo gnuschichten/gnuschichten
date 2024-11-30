@@ -1,0 +1,10 @@
+global-styling:
+  css:
+    theme:
+      css/styles.css: {}
+      js/highlight/styles/default.css: {}
+  js:
+    js/main.js: {}
+highlight:
+  js:
+    js/highlight/highlight.js: {}
