@@ -1,0 +1,13 @@
+uuid: be34f9f1-7338-4f7e-af42-a74d0bc94be7
+langcode: de
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: C7X8h9FWlwkQ9y5mnU2JzgaZICAdc6HFbPVbhvjlAYE
+id: node_unpublish_action
+label: 'Veröffentlichung des Inhalts zurücknehmen'
+type: node
+plugin: 'entity:unpublish_action:node'
+configuration: {  }

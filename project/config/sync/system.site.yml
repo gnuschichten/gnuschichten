@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: HlN7eAN2N4JIHsYv56V4E7sqC9bS609KwvGFjyD_mgk
+langcode: de
+uuid: ac2be10d-d62b-4a02-81cd-4b59c1850393
+name: gnuschichten
+mail: weihol@web.de
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: de
+mail_notification: null
