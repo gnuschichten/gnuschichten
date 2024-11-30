@@ -1,0 +1,22 @@
+uuid: e84a38c5-a29d-485a-8797-10944988e626
+langcode: de
+status: true
+dependencies:
+  config:
+    - node.type.wiki
+id: node.wiki.promote
+field_name: promote
+entity_type: node
+bundle: wiki
+label: 'Auf der Startseite anzeigen'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: An
+  off_label: Aus
+field_type: boolean

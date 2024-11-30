@@ -1,0 +1,15 @@
+uuid: 9f7171df-43ee-4a59-be52-1416d77b5cc1
+langcode: de
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: B6mQr6j7ZcqZB14S8ytJEXCYzOQ1mcOW9-oWYbtkbJc
+id: daily_schedule
+label: 'Täglicher Zeitplan'
+enabled: false
+keep: null
+period: null
+cron: null
+source_id: default_db
+destination_id: private_files
+settings_profile_id: null

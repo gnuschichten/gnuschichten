@@ -1,0 +1,58 @@
+uuid: dbe7b7af-192d-456c-8b43-33a6636a290e
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.field.node.wiki.body
+    - node.type.wiki
+    - views.view.who_s_online
+  module:
+    - layout_builder
+    - layout_discovery
+    - text
+    - user
+    - views
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: 'One Column'
+          context_mapping: {  }
+        components:
+          a7d7bfc9-876f-4469-9f61-c4df079b8285:
+            uuid: a7d7bfc9-876f-4469-9f61-c4df079b8285
+            region: content
+            configuration:
+              id: 'views_block:who_s_online-who_s_online_block'
+              label: ''
+              label_display: visible
+              provider: views
+              context_mapping: {  }
+              views_label: ''
+              items_per_page: none
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+id: node.wiki.default
+targetEntityType: node
+bundle: wiki
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
