@@ -18,10 +18,10 @@
         "composer/installers": "^2.0",
         "cweagans/composer-patches": "^1.7",
         "drupal/backup_migrate": "^5.1",
-        "drupal/bulma": "3.0.x-dev@dev",
         "drupal/core-composer-scaffold": "^11.0",
         "drupal/core-project-message": "^11.0",
         "drupal/core-recommended": "^11.0",
+        "drupal/paragraph_blocks": "^4.1",
         "drupal/paragraphs": "^1.18",
         "drush/drush": "^13.3"
     },

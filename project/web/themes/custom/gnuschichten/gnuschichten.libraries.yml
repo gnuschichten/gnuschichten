@@ -2,9 +2,15 @@ global-styling:
   css:
     theme:
       css/styles.css: {}
-      js/highlight/styles/default.css: {}
+      js/highlight/styles/shades-of-purple.css: {}
   js:
     js/main.js: {}
 highlight:
   js:
     js/highlight/highlight.js: {}
+clipboard:
+  js:
+    js/clipboard/clipboard.min.js: { }
+clipboardInit:
+  js:
+    js/clipboard/clipboardInit.js: { }
