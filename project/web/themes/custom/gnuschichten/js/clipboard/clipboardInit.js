@@ -11,29 +11,22 @@ Drupal.behaviors.clipboardInit = {
         const content = item.innerText;
         const clipboard = new ClipboardJS(button);
 
-        button.innerHTML = "copy";
-        button.classList.add("btn");
+        button.innerHTML = "In die Zwischenablage kopieren";
+        button.classList.add("copy-code");
         button.setAttribute('data-clipboard-text', content);
 
         item.appendChild(button);
+
+        button.addEventListener('click', () => {
+          button.innerHTML = "Kopiert!";
+
+          setTimeout(function(){
+            button.innerHTML = "Erneut in die Zwischenablage kopieren";
+          }, 1000);
+        })
 
       }
     }
 
   }
 };
-
-// const clipboard = new ClipboardJS('.copy-code');
-//
-// clipboard.on('success', function (e) {
-//   console.info('Action:', e.action);
-//   console.info('Text:', e.text);
-//   console.info('Trigger:', e.trigger);
-//
-//   e.clearSelection();
-// });
-//
-// clipboard.on('error', function (e) {
-//   console.error('Action:', e.action);
-//   console.error('Trigger:', e.trigger);
-// });
