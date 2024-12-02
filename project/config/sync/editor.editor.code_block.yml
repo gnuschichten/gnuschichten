@@ -1,0 +1,18 @@
+uuid: 333ad7eb-53e5-48c5-b3d8-6114626a36f9
+langcode: de
+status: true
+dependencies:
+  config:
+    - filter.format.code_block
+  module:
+    - ckeditor5
+format: code_block
+editor: ckeditor5
+settings:
+  toolbar:
+    items:
+      - undo
+      - redo
+  plugins: {  }
+image_upload:
+  status: false

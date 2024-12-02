@@ -1,0 +1,9 @@
+uuid: a4f57341-3b0a-48e9-986f-415620047e8d
+langcode: de
+status: true
+dependencies: {  }
+name: Komponenten
+vid: components
+description: null
+weight: 0
+new_revision: false

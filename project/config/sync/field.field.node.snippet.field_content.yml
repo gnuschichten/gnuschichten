@@ -1,0 +1,40 @@
+uuid: 46364f22-52d1-47bf-bf40-d66a0b215e4b
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content
+    - node.type.snippet
+    - paragraphs.paragraphs_type.code
+    - paragraphs.paragraphs_type.text
+  module:
+    - entity_reference_revisions
+    - paragraph_blocks
+third_party_settings:
+  paragraph_blocks:
+    status: 1
+id: node.snippet.field_content
+field_name: field_content
+entity_type: node
+bundle: snippet
+label: Content
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      text: text
+      code: code
+    negate: 0
+    target_bundles_drag_drop:
+      code:
+        weight: 4
+        enabled: true
+      text:
+        weight: 3
+        enabled: true
+field_type: entity_reference_revisions

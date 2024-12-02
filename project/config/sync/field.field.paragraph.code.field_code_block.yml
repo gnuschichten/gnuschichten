@@ -1,0 +1,24 @@
+uuid: af2a1548-b598-4620-9087-2d3e9d5e8373
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_code_block
+    - filter.format.plain_text
+    - paragraphs.paragraphs_type.code
+  module:
+    - text
+id: paragraph.code.field_code_block
+field_name: field_code_block
+entity_type: paragraph
+bundle: code
+label: 'Code Block'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - plain_text
+field_type: text_long

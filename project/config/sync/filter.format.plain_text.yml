@@ -6,14 +6,17 @@ _core:
   default_config_hash: JLMwODO0epnA_H-jFlH9ezVfa5YBJniRv3MmLqYNl_Q
 name: Klartext
 format: plain_text
-weight: 10
+weight: -8
 filters:
-  filter_autop:
-    id: filter_autop
+  filter_html:
+    id: filter_html
     provider: filter
-    status: true
-    weight: 0
-    settings: {  }
+    status: false
+    weight: -10
+    settings:
+      allowed_html: ''
+      filter_html_help: true
+      filter_html_nofollow: false
   filter_html_escape:
     id: filter_html_escape
     provider: filter

@@ -1,0 +1,14 @@
+uuid: 14793eba-b5bb-427e-a34d-8a6e320ce321
+langcode: de
+status: true
+dependencies: {  }
+name: 'Code Block'
+format: code_block
+weight: -9
+filters:
+  filter_htmlcorrector:
+    id: filter_htmlcorrector
+    provider: filter
+    status: true
+    weight: 10
+    settings: {  }

@@ -1,0 +1,22 @@
+uuid: 207f66ab-81f6-43a3-9585-f9ea4f594f1a
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.code.field_code_block
+    - paragraphs.paragraphs_type.code
+  module:
+    - text
+id: paragraph.code.default
+targetEntityType: paragraph
+bundle: code
+mode: default
+content:
+  field_code_block:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
