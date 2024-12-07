@@ -10,7 +10,8 @@
   "dependencies": {
     "@highlightjs/cdn-assets": "^11.10.0",
     "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "clipboard": "^2.0.11"
   },
   "devDependencies": {
     "@babel/core": "^7.24.3",

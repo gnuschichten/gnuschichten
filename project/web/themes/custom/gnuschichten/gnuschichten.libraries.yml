@@ -9,7 +9,7 @@ highlight:
     dist/scripts/highlight.js: {}
 clipboard:
   js:
-    js/clipboard/clipboard.min.js: { }
+    dist/scripts/clipboard.js: { }
 clipboardInit:
   js:
-    js/clipboard/clipboardInit.js: { }
+    dist/scripts/clipboardInit.js: { }
