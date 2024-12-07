@@ -1,0 +1,6 @@
+{
+  "name": "gnuschichten theme",
+  "description": "gnuschichten theme file for browserSnyc stream support",
+  "browserSyncProxy" : "http://localhost",
+  "browserSyncPort" : 3000
+}

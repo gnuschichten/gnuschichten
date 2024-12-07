@@ -33,6 +33,9 @@
 /web/sites/README.txt
 /web/themes/README.txt
 /web/themes/contrib
+/web/themes/custom/*/dist
+/web/themes/custom/*/node_modules
+/web/themes/custom/*/config-local.json
 /web/.csslintrc
 /web/.editorconfig
 /web/.eslintignore

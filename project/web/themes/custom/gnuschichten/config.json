@@ -1,0 +1,37 @@
+{
+  "name": "pwwnrw theme",
+  "css": {
+    "src": [
+      "./src/styles/**/*.scss"
+    ],
+    "dest": "./dist/styles"
+  },
+  "scss": {
+    "src": [
+      "./src/styles/**/*.scss"
+    ],
+    "dest": "./styles/scss"
+  },
+  "js": {
+    "src": [
+      "./src/scripts/**/*.js"
+    ],
+    "bootstrap": [
+      "./node_modules/@popperjs/core/dist/umd/popper.js",
+      "./node_modules/bootstrap/dist/js/bootstrap.js"
+    ],
+    "dest": "./dist/scripts"
+  },
+  "fonts": {
+    "src": [
+      "./src/fonts/**/*.woff*"
+    ],
+    "dest": "./dist/fonts"
+  },
+  "img": {
+    "src": [
+      "./src/img/**/*"
+    ],
+    "dest": "./dist/img"
+  }
+}
