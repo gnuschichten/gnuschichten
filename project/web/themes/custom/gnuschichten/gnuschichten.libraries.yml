@@ -1,13 +1,12 @@
 global-styling:
   css:
     theme:
-      css/styles.css: {}
-      js/highlight/styles/shades-of-purple.css: {}
+      dist/styles/gnuschichten.css: {}
   js:
     js/main.js: {}
 highlight:
   js:
-    js/highlight/highlight.js: {}
+    dist/scripts/highlight.js: {}
 clipboard:
   js:
     js/clipboard/clipboard.min.js: { }

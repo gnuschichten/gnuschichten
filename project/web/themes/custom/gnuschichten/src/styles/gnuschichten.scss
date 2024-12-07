@@ -1,3 +1,5 @@
-body {
-  background-color: hotpink;
-}
+// Vendors
+@import "vendors/highlight";
+
+// Components - buttons, carousel etc
+@import "components/code";

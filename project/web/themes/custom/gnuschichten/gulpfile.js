@@ -117,8 +117,8 @@ gulp.task('scripts', function () {
 });
 
 // Process js for bootstrap.
-gulp.task('bootstrapJs', function () {
-  return gulp.src(config.js.bootstrap)
+gulp.task('vendorJs', function () {
+  return gulp.src(config.js.vendor)
     .pipe(plumber({
       errorHandler: function (error) {
         notify.onError({
@@ -189,13 +189,13 @@ gulp.task('browserSync', function () {
 });
 
 // Compile for production.
-gulp.task('build', gulp.series('removeDist', 'imgDist', 'css', 'lint-scss', 'scripts', 'bootstrapJs', 'fontsDist'));
+gulp.task('build', gulp.series('removeDist', 'imgDist', 'css', 'lint-scss', 'scripts', 'vendorJs', 'fontsDist'));
 
 // Compile for development with linter
-gulp.task('dev', gulp.series('removeDist','fontsDist','imgDist', 'css_dev', 'lint-scss', 'scripts_dev', 'bootstrapJs'));
+gulp.task('dev', gulp.series('removeDist','fontsDist','imgDist', 'css_dev', 'lint-scss', 'scripts_dev', 'vendorJs'));
 
 // Compile for development + BrowserSync + Watch
-gulp.task('watch', gulp.series(gulp.series('removeDist', 'fontsDist', 'imgDist', 'css_dev', 'scripts_dev', 'bootstrapJs'), gulp.parallel('watch', 'browserSync')));
+gulp.task('watch', gulp.series(gulp.series('removeDist', 'fontsDist', 'imgDist', 'css_dev', 'scripts_dev', 'vendorJs'), gulp.parallel('watch', 'browserSync')));
 
 // Default Task
 gulp.task('default', gulp.series('build'));

@@ -8,6 +8,7 @@
     "dev": "node_modules/gulp/bin/gulp.js dev"
   },
   "dependencies": {
+    "@highlightjs/cdn-assets": "^11.10.0",
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3"
   },

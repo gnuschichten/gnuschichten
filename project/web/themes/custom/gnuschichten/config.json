@@ -16,9 +16,10 @@
     "src": [
       "./src/scripts/**/*.js"
     ],
-    "bootstrap": [
+    "vendor": [
       "./node_modules/@popperjs/core/dist/umd/popper.js",
-      "./node_modules/bootstrap/dist/js/bootstrap.js"
+      "./node_modules/bootstrap/dist/js/bootstrap.js",
+      "./node_modules/@highlightjs/cdn-assets/highlight.js"
     ],
     "dest": "./dist/scripts"
   },
