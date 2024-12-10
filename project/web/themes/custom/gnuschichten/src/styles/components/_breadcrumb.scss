@@ -9,7 +9,7 @@
   .breadcrumb-item {
     margin-right: 0.5rem;
 
-    a:after {
+    a::after {
       display: inline-block;
       content: "";
       min-width: 1.5rem;

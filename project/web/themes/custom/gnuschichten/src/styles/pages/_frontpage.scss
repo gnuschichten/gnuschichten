@@ -1,0 +1,38 @@
+.path-frontpage {
+  .views-element-container.contextual-region > .contextual-region {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+  }
+
+  .views-row {
+    margin-bottom: 2rem;
+    width: calc(50% - 0.5rem);
+
+    &:nth-child(even) {
+      margin-right: 0.5rem;
+    }
+  }
+
+  .pager-container {
+    margin: 2rem auto;
+  }
+
+  .feed-icon {
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .card-title {
+    margin-bottom: 4rem;
+
+    a {
+      text-decoration-color: $primary;
+    }
+  }
+
+  .links.inline {
+    list-style: none;
+  }
+}

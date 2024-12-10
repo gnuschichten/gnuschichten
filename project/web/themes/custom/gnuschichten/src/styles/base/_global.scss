@@ -11,7 +11,8 @@ main {
 
 a {
   text-decoration-color: $secondary;
-  text-decoration-thickness: 3px;
+  text-underline-offset: 0.15rem;
+  text-decoration-thickness: 2px;
 
   &:hover {
     text-decoration-color: $primary;

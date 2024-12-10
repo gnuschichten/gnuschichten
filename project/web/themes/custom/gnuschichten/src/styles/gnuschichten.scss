@@ -17,8 +17,8 @@
 
 // Layout - main parts like footer, grid etc
 @import "layout/footer";
-@import "layout/grid";
 @import "layout/header";
 
 // Pages - Specific styles for front page, contact page etc
+@import "pages/frontpage";
 @import "pages/page-node-type-snippet";
