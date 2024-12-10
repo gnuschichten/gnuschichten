@@ -1,7 +1,42 @@
 .menu-snippet {
-  // important is necessary to override bootstrap js
-  .navbar-nav .dropdown-menu {
-    position: relative !important;
-    transform: none !important;
+  .navbar-nav {
+    background-color: $primary;
+    padding: 0.5rem;
+
+    .dropdown-menu {
+      // important is necessary to override bootstrap js
+      position: relative !important;
+      transform: none !important;
+      z-index: 1;
+    }
+
+    .dropdown-item {
+      white-space: wrap;
+
+      &.active {
+        background-color: $purple-400;
+      }
+    }
+
+    .nav-item.dropdown {
+      padding-bottom: 1rem;
+      color: $white;
+
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
+
+    .dropdown-toggle {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .active.dropdown-toggle {
+      text-decoration: underline;
+      text-decoration-color: $secondary;
+      text-decoration-thickness: 3px;
+    }
   }
 }

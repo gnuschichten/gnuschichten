@@ -5,9 +5,20 @@
 @import "vendors/bootstrap";
 @import "vendors/highlight";
 
+// Base - Boilerplate code
+@import "base/global";
+
 // Components - buttons, carousel etc
+@import "components/alert";
+@import "components/breadcrumb";
 @import "components/code";
+@import "components/primary-local-task";
 @import "components/menu-snippet";
+
+// Layout - main parts like footer, grid etc
+@import "layout/footer";
+@import "layout/grid";
+@import "layout/header";
 
 // Pages - Specific styles for front page, contact page etc
 @import "pages/page-node-type-snippet";

@@ -47,9 +47,7 @@
 #}
 <div class="layout-container">
 
-  <header class="container-fluid" role="banner">
-    {{ page.header }}
-  </header>
+{% include '@gnuschichten/layout/includes/header.html.twig' %}
 
   <div class="container-fluid">
     {{ page.navigation }}
@@ -72,7 +70,7 @@
   </main>
 
   {% if page.footer_top_menu or page.footer_bottom_menu %}
-    <footer class="container-fluid" role="contentinfo">
+    <footer class="footer container-fluid" role="contentinfo">
       {{ page.footer_top_menu }}
       {{ page.footer_bottom_menu }}
     </footer>

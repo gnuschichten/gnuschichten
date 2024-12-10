@@ -1,0 +1,13 @@
+.header {
+  background-color: $primary;
+  padding: 2rem 0;
+
+  a {
+    color: $white;
+  }
+
+  .header-container {
+    max-width: 1680px;
+    margin: 0 auto;
+  }
+}

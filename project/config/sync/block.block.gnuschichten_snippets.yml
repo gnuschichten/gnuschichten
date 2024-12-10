@@ -18,10 +18,10 @@ plugin: 'system_menu_block:snippets'
 settings:
   id: 'system_menu_block:snippets'
   label: Snippets
-  label_display: visible
+  label_display: '0'
   provider: system
   level: 1
-  depth: 0
+  depth: 2
   expand_all_items: true
 visibility:
   'entity_bundle:node':
