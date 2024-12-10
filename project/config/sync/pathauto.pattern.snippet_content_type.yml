@@ -1,0 +1,22 @@
+uuid: d567373e-1e0f-47aa-abd0-3616c10b9460
+langcode: de
+status: true
+dependencies:
+  module:
+    - node
+id: snippet_content_type
+label: 'Snippet Content Type'
+type: 'canonical_entities:node'
+pattern: 'snippet/[node:menu-link]'
+selection_criteria:
+  49d076b5-45b0-48fb-a6ac-817112dcebf1:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 49d076b5-45b0-48fb-a6ac-817112dcebf1
+    context_mapping:
+      node: node
+    bundles:
+      snippet: snippet
+selection_logic: and
+weight: -5
+relationships: {  }

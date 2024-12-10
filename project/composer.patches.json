@@ -1,0 +1,7 @@
+{
+  "patches": {
+    "drupal/taxonomy_menu": {
+      "3434906 - Automated Drupal 11 compatibility fixes for taxonomy_menu": "patches/taxonomy_menu/13-3434906.patch"
+    }
+  }
+}

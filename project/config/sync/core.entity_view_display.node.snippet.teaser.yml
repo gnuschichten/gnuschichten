@@ -4,9 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.snippet.field_components
     - field.field.node.snippet.field_content
-    - field.field.node.snippet.field_topic
     - node.type.snippet
   module:
     - user
@@ -21,7 +19,5 @@ content:
     weight: 100
     region: content
 hidden:
-  field_components: true
   field_content: true
-  field_topic: true
   langcode: true

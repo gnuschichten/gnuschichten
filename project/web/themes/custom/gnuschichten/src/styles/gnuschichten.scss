@@ -1,5 +1,13 @@
+// Sub theme styling - override bs default variables.
+@import "utils/variables";
+
 // Vendors
+@import "vendors/bootstrap";
 @import "vendors/highlight";
 
 // Components - buttons, carousel etc
 @import "components/code";
+@import "components/menu-snippet";
+
+// Pages - Specific styles for front page, contact page etc
+@import "pages/page-node-type-snippet";

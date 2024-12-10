@@ -1,0 +1,8 @@
+uuid: 922feb2e-b504-4eb5-9d75-c7017130e7cc
+langcode: de
+status: true
+dependencies: {  }
+id: snippets
+label: Snippets
+description: ''
+locked: false

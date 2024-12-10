@@ -10,8 +10,8 @@ _core:
   default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
 id: gnuschichten_powered
 theme: gnuschichten
-region: sidebar_first
-weight: -6
+region: footer_top_menu
+weight: -5
 provider: null
 plugin: system_powered_by_block
 settings:

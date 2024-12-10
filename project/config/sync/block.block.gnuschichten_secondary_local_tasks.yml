@@ -1,6 +1,6 @@
 uuid: d2e9d84e-61d9-4097-9729-550173d3c15d
 langcode: de
-status: true
+status: false
 dependencies:
   theme:
     - gnuschichten
@@ -8,8 +8,8 @@ _core:
   default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
 id: gnuschichten_secondary_local_tasks
 theme: gnuschichten
-region: highlighted
-weight: -2
+region: header
+weight: -3
 provider: null
 plugin: local_tasks_block
 settings:

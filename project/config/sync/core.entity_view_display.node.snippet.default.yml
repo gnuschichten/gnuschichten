@@ -3,9 +3,7 @@ langcode: de
 status: true
 dependencies:
   config:
-    - field.field.node.snippet.field_components
     - field.field.node.snippet.field_content
-    - field.field.node.snippet.field_topic
     - node.type.snippet
   module:
     - entity_reference_revisions
@@ -15,14 +13,6 @@ targetEntityType: node
 bundle: snippet
 mode: default
 content:
-  field_components:
-    type: entity_reference_label
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    weight: 105
-    region: content
   field_content:
     type: entity_reference_revisions_entity_view
     label: hidden
@@ -31,14 +21,6 @@ content:
       link: ''
     third_party_settings: {  }
     weight: 103
-    region: content
-  field_topic:
-    type: entity_reference_label
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    weight: 104
     region: content
   links:
     settings: {  }

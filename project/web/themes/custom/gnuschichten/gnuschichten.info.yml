@@ -2,6 +2,15 @@ name: 'gnuschichten'
 type: theme
 description: 'frontend theme'
 core_version_requirement: ^11
-base theme: olivero
+base theme: stable9
 libraries:
   - gnuschichten/global-styling
+regions:
+  header: 'Header'
+  navigation: 'Header Navigation'
+  breadcrumb: 'Breadcrumb'
+  content: Content
+  sidebar_first: 'Sidebar First'
+  sidebar_second: 'Sidebar Second'
+  footer_top_menu: 'Footer Top Menu'
+  footer_bottom_menu: 'Footer Bottom Menu'

@@ -1,6 +1,6 @@
 uuid: 57bf8d54-d293-4ea2-9d11-92c58ecbf6b8
 langcode: de
-status: true
+status: false
 dependencies:
   config:
     - system.menu.main
@@ -12,8 +12,8 @@ _core:
   default_config_hash: KWAiziL39uEzmOJEql_wbUP2RtqGceL3WM2CfxhMelE
 id: gnuschichten_main_menu
 theme: gnuschichten
-region: primary_menu
-weight: 0
+region: content
+weight: -1
 provider: null
 plugin: 'system_menu_block:main'
 settings:

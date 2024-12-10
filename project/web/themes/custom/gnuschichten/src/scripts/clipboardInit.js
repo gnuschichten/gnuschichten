@@ -2,7 +2,7 @@
 Drupal.behaviors.clipboardInit = {
   attach: function (context) {
 
-    const items = context.querySelectorAll('pre');
+    const items = document.querySelectorAll('pre');
     const initButton = document.getElementsByTagName('code');
 
     if (initButton) {

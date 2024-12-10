@@ -1,0 +1,15 @@
+.page-node-type-snippet {
+  .snippet-main {
+    display: flex;
+
+    .layout-sidebar-first {
+      min-width: 25%;
+      padding-right: 2rem;
+    }
+
+    .layout-content {
+      min-width: 75%;
+      max-width: 100%;
+    }
+  }
+}

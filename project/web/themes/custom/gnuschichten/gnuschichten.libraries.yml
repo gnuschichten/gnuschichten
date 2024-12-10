@@ -3,13 +3,15 @@ global-styling:
     theme:
       dist/styles/gnuschichten.css: {}
   js:
-    js/main.js: {}
+    dist/scripts/bootstrap.bundle.js: {}
 highlight:
   js:
     dist/scripts/highlight.js: {}
 clipboard:
   js:
-    dist/scripts/clipboard.js: { }
+    dist/scripts/clipboard.js: {}
 clipboardInit:
   js:
-    dist/scripts/clipboardInit.js: { }
+    dist/scripts/clipboardInit.js: {}
+  dependencies:
+    - core/drupal

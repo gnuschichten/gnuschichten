@@ -1,7 +1,14 @@
 uuid: 733e4a34-fe8a-4e6a-bdbc-0f92f89936ab
 langcode: de
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - snippets
+    parent: 'snippets:'
 name: Snippet
 type: snippet
 description: null

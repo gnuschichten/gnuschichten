@@ -18,13 +18,17 @@
         "composer/installers": "^2.0",
         "cweagans/composer-patches": "^1.7",
         "drupal/backup_migrate": "^5.1",
+        "drupal/bootstrap5": "^4.0",
+        "drupal/bootstrap_barrio": "^5.5",
         "drupal/core-composer-scaffold": "^11.0",
         "drupal/core-project-message": "^11.0",
         "drupal/core-recommended": "^11.0",
         "drupal/paragraph_blocks": "^4.1",
         "drupal/paragraphs": "^1.18",
         "drupal/pathauto": "^1.13",
-        "drush/drush": "^13.3"
+        "drupal/twig_tweak": "^3.4",
+        "drush/drush": "^13.3",
+        "mglaman/composer-drupal-lenient": "^1.0"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -39,11 +43,18 @@
             "phpstan/extension-installer": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "php-http/discovery": true,
-            "cweagans/composer-patches": true
+            "cweagans/composer-patches": true,
+            "mglaman/composer-drupal-lenient": true
         },
         "sort-packages": true
     },
     "extra": {
+        "patchLevel": {
+            "drupal/core": "-p2"
+        },
+        "enable-patching": true,
+        "composer-exit-on-patch-failure": true,
+        "patches-file": "composer.patches.json",
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"
@@ -98,6 +109,9 @@
                 "  * Remove the plugin that prints this message:",
                 "      composer remove drupal/core-project-message"
             ]
+        },
+        "drupal-lenient": {
+            "allowed-list": ["drupal/taxonomy_menu"]
         }
     }
 }

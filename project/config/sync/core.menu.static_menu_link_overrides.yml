@@ -1,3 +1,27 @@
 _core:
   default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM
-definitions: {  }
+definitions:
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__snippet_taxonomy_menu__7':
+    expanded: true
+    parent: ''
+    weight: 1
+    menu_name: snippet-menu
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__snippet_taxonomy_menu__8':
+    expanded: true
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.snippet_taxonomy_menu.7'
+    weight: 0
+    menu_name: snippet-menu
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__snippet_taxonomy_menu__5':
+    expanded: true
+    parent: ''
+    weight: 2
+    menu_name: snippet-menu
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__snippet_taxonomy_menu__6':
+    expanded: true
+    parent: ''
+    weight: 3
+    menu_name: snippet-menu
+    enabled: true

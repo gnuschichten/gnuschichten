@@ -1,6 +1,6 @@
 uuid: c20516ae-3bcf-48f8-922a-0647f2e546cf
 langcode: de
-status: true
+status: false
 dependencies:
   config:
     - system.menu.account
@@ -12,7 +12,7 @@ _core:
   default_config_hash: gmxYWWHmgbe0Pnv8y48ZLSLH5mEHejOjAP6RLxUfdzU
 id: gnuschichten_account_menu
 theme: gnuschichten
-region: secondary_menu
+region: header
 weight: -4
 provider: null
 plugin: 'system_menu_block:account'

@@ -1,0 +1,33 @@
+uuid: 719e01fb-4214-45bd-b764-10e749d07cf1
+langcode: de
+status: true
+dependencies:
+  config:
+    - system.menu.snippets
+  module:
+    - node
+    - system
+  theme:
+    - gnuschichten
+id: gnuschichten_snippets
+theme: gnuschichten
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:snippets'
+settings:
+  id: 'system_menu_block:snippets'
+  label: Snippets
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      snippet: snippet

@@ -1,0 +1,7 @@
+.menu-snippet {
+  // important is necessary to override bootstrap js
+  .navbar-nav .dropdown-menu {
+    position: relative !important;
+    transform: none !important;
+  }
+}
