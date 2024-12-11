@@ -1,0 +1,22 @@
+uuid: ed95e322-5f32-4881-9190-468e6a656ac4
+langcode: de
+status: true
+dependencies:
+  config:
+    - node.type.landingpage
+id: node.landingpage.promote
+field_name: promote
+entity_type: node
+bundle: landingpage
+label: 'Auf der Startseite anzeigen'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: An
+  off_label: Aus
+field_type: boolean
