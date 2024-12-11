@@ -32,4 +32,15 @@
       max-width: 100%;
     }
   }
+
+  .node-submitted {
+    background-color: $primary;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    color: $white;
+
+    a {
+      color: $white;
+    }
+  }
 }

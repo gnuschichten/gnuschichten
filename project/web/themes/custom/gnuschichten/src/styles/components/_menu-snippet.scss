@@ -37,6 +37,10 @@
       text-decoration: underline;
       text-decoration-color: $secondary;
       text-decoration-thickness: 3px;
+
+      > .dropdown-menu {
+        display: block;
+      }
     }
   }
 }
